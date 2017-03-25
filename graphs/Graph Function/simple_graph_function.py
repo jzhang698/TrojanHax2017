@@ -11,10 +11,10 @@ import sys
 
 # import csv file
 csv_reader = csv.reader(open('test.csv'))
-bigx = float(-sys.maxint -1) 
-bigy = float(-sys.maxint -1)
-smallx = float(sys.maxint)
-smally = float(sys.maxint)
+bigx = float(-sys.maxsize -1)
+bigy = float(-sys.maxsize -1)
+smallx = float(sys.maxsize)
+smally = float(sys.maxsize)
 
 verts = []
 
@@ -48,6 +48,6 @@ ax.set_ylabel('y data')
 ax.set_xlim(smallx, bigx)
 ax.set_ylim(smally, bigy) #plot range
 
-ax.plot(x_arr, y_arr, color='yellow', lw = 2)
+ax.plot(x_arr, y_arr, color='blue', lw = 2)
 plt.show() # show the plot in the console
 fig.savefig('test.pdf') # save plot to file.
