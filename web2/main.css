@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('./images/circuit.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.implementation {
+  display: flex;
+  align-items: center;
+  background-image: url('./images/bluegreen.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 450px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.info {
+	background-color: #ffffff;
+	height: 250px;
+	color: #000000;
+	text-shadow: 0px 0px 0px #000000;
+}
