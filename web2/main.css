@@ -48,3 +48,39 @@ section .row img {
 	text-shadow: 0px 0px 0px #000000;
 	vertical-align: middle;
 }
+
+.team {
+	display: flex;
+  	align-items: center;
+  	background-image: url('./images/bluegreen.png');
+  	background-size: cover;
+  	color: #ffffff;
+  	height: 650px;
+  	text-shadow: 1px 1px 1px #000000;
+}
+
+.graph {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}

@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="./index/bootstrap.min.css" rel="stylesheet">
+	<link href="./index/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index/hover-effect.css">
+    <link rel="stylesheet" type="text/css" href="./index/loaders.css">
+    <link rel="stylesheet" type="text/css" href="./index/font-awesome.min.css">
 </head>
 
 <body>
@@ -26,10 +31,11 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<h4>TrojanHealthBot</h4>
-				<p>In Machine Learning, the Perceptron is an algorithm for learning binary classifiers. Given large sets of data, it can gradually learn to divide objects into two distinct groups based on certain characteristics. With more data, it can more accurately draw a line between the groups by "plotting" the data and adjusting the linear decision boundaries.</p>
-				<p>For Spring 2017 Trojan Hacks, our team is implementing a machine learning algorithm to diagnose abnormal heart complications. This algorithm can be used to help save lives and make better predictions than doctors.</p>
-				<p>It is a simple, deep neural network!</p>
+				<h1>TrojanHealthBot</h1>
+				<p style="font-size:15px">In Machine Learning, the Perceptron is an algorithm for learning binary classifiers. Given large sets of data, it can gradually learn to divide objects into two distinct groups based on certain characteristics. With more data, it can more accurately draw a line between the groups by "plotting" the data and adjusting the linear decision boundaries.</p>
+				<p style="font-size:15px">For Spring 2017 Trojan Hacks, our team is implementing a machine learning algorithm to diagnose abnormal heart complications. This algorithm can be used to help save lives and make better predictions than doctors.</p>
+				<p style="font-size:15px">It is a simple, deep neural network!</p>
+				<a class="btn btn-transparent-dark" href="https://github.com/jzhang698/TrojanHax2017">Link to GitHub Repo</a>
 			</div>
 			<div class="col-sm-6">
 				<img src="./images/brain.jpg"/>
@@ -42,13 +48,13 @@
 		<div class="container">
 			<div class="row text-center">
 				<h1>Background Information</h1>
-				<p>We implemented a multilayer perceptron to create a simple, deep, neural network. By training this network with known patient information, we were able to predict (given a patient's data) whether he/she has a heart abnormality. Here is how we did it:</p>
+				<p style="font-size:15px">We implemented a multilayer perceptron to create a simple, deep, neural network. By training this network with known patient information, we were able to predict (given a patient's data) whether he/she has a heart abnormality. Here is how we did it:</p>
 			</div>
 			<div style="height: 30px"></div>
 			<div class="row text-center">
 				<div class="col-sm-3 info">
 					<h3>Source of Data</h3>
-					<p>Our training and testing points were obtained from UCI's Machine learning Database of the Myocardial Perfusion Imaging Testing data of 267 patients.</p>
+					<p>Our training and testing points were obtained from <a href="http://archive.ics.uci.edu/ml/datasets/SPECT+Heart">UCI's Machine learning Database of the Myocardial Perfusion Imaging Testing data of 267 patients.</a></p>
 				</div>
 				<div class="col-sm-3 info">
 					<h3>What Is an MPI?</h3>
@@ -75,10 +81,57 @@
 				<img src="./images/graph.png"/>
 			</div>
 			<div class="col-sm-6">
-				<h4>Brief Explanation of the Algorithm</h4>
-				<p>The perceptron algorithm takes in an initial data point and draws a divider arbitrarily, as that point is the first to be plotted. After the second data point is drawn, it adjusts the divider accordingly. For example, if the first and second points are in opposite groups, then the divider goes between them in some way. The slope of the graph is the weight of the data points and the y-intercept is the bias.</p>
+				<h1>Brief Explanation of the Algorithm</h1>
+				<p style="font-size: 20px">The perceptron algorithm takes in an initial data point and draws a divider arbitrarily, as that point is the first to be plotted. After the second data point is drawn, it adjusts the divider accordingly. For example, if the first and second points are in opposite groups, then the divider goes between them in some way. The slope of the graph is the weight of the data points and the y-intercept is the bias.</p>
 			</div>
 		</div>
 	</section>
+
+	<!-- LEARNING CURVE OF OUR ALGORITHM -->
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1>Perceptron Learning Curve</h1>
+			</div>
+			<div class="col-sm-6">
+				<img src="./images/learning_curve.png"/>
+			</div>
+		</div>
+	</section>
+
+	<!-- MEET THE DEV TEAM -->
+	<section class="team">
+		<div class="container">
+			<div class="row text-center">
+				<h1>Meet the Team!</h1>
+			</div>
+			<div style="height: 30px"></div>
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<img src="./images/peter.jpg"/>
+					<h3 style="text-align:left">Peter Lillian</h3>
+					<p style="text-align:left">plillian@usc.edu</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/julian.jpg"/>
+					<h3 style="text-align:left">Julian Zhang</h3>
+					<p style="text-align:left">julianzh@usc.edu</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/sam.jpg"/>
+					<h3 style="text-align:left">Sam Dawes</h3>
+					<p style="text-align:left">sdawes@usc.edu</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="container">
+		<div class="row">
+			<p class="col-sm-4">&copy; 2017 samdawes</p>
+		</div>
+	</footer>
+
 </body>
 </html>
