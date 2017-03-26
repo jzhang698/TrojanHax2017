@@ -43,7 +43,8 @@ section .row img {
 
 .info {
 	background-color: #ffffff;
-	height: 250px;
+	height: 160px;
 	color: #000000;
 	text-shadow: 0px 0px 0px #000000;
+	vertical-align: middle;
 }
