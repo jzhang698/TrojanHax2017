@@ -1,6 +1,7 @@
 Intro
 
-Multilayer Perceptron Deep Neural Network
+
+For our hackathon project, we implemented a Multilayer Perceptron Deep Neural Network
 
 SPECT MPI
 Single Photo Emission Computed Tomography is a method of Myocardial Perfusion Imaging Testing
