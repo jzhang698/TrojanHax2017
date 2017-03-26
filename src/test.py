@@ -75,7 +75,7 @@ with tf.Session() as sess:
         Y_batches = np.array_split(Y, total_batch)
         for i in range(total_batch):
             batch_x, batch_y = X_batches[i], Y_batches[i]
-            _, c = session.run([optimizer, cost], feed_dict={x: batch_x, y: batch_y})
+            _, c = sess.run([optimizer, cost], feed_dict={x: batch_x, y: batch_y})
             avg_cost = avg_cost + c / total_batch
     # Finish up / show accuracy
     correct_prediction = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))
