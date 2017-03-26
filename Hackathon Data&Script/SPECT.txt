@@ -70,8 +70,8 @@ Sam:
 Good morning. This is peter lillian, julian zhang, and I am sam dawes. WE are trojan health bot. As a group, 
 We set out to create a project that could directly benefit Trojan doctors at the Keck School of Medicine, more specifically, those in the radiology and nuclear cardiology departments. We thought “How could we make the biggest impact in just the short span of 24 hours? Clearly, we had to use AI.
 
-In a broad sense, our team implemented a deep learning algorithm, known as the Multi-layer Perceptron algorithm. Given a set of data points for it to learn from, this algorithm can classify additional points in either group A or group B. For our implementation, we classified people as with either abnormal or normal heart health. Our data was obtained from UCI’s database of machine learning.
-
+In a broad sense, our team implemented a deep learning algorithm, known as the Multi-layer Perceptron. Given a set of data points for it to learn from, this algorithm is able to classify data into two different groups.
+We took a set of spec data from UCI’s database of machine learning. With this, our algorithm was able to classify people into two groups: those with heart abnormalities and those without.
 
 
 
