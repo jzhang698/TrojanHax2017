@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row text-center">
 				<h3>Machine Learning:</h3>
-				<h2>The Perceptron</h2>
+				<h2>Multilayer Perceptrons</h2>
 			</div>
 		</div>
 	</section>
@@ -41,30 +41,39 @@
 	<section class="implementation">
 		<div class="container">
 			<div class="row text-center">
-				<h1>Our Implementation</h1>
-				<p>We implemented a multi-layer perceptron to create a simple, deep, neural network. Here is how we did it:</p>
+				<h1>Background Information</h1>
+				<p>We implemented a multilayer perceptron to create a simple, deep, neural network. By training this network with known patient information, we were able to predict (given a patient's data) whether he/she has a heart abnormality. Here is how we did it:</p>
 			</div>
 			<div style="height: 30px"></div>
 			<div class="row text-center">
 				<div class="col-sm-3 info">
-					<h3>Our Source of Data</h3>
-					<p>Our data was obtained from UCI's _____ something lab?</p>
+					<h3>Source of Data</h3>
+					<p>Our training and testing points were obtained from UCI's Machine learning Database of the Myocardial Perfusion Imaging Testing data of 267 patients.</p>
 				</div>
 				<div class="col-sm-3 info">
-					<h3>What Was the Data?</h3>
-					<p>This data was of some patients or shit like that something heart disease?</p>
+					<h3>What Is an MPI?</h3>
+					<p>The method of obtaining the MPI data was through Single Photo Emission Computed Tomography, which is a type of MPI testing.</p>
 				</div>
 				<div class="col-sm-3 info">
-					<h3>What Were we Looking For?</h3>
-					<p>After training the algorithm with the data set, it was able to classify the people into 2 groups - healthy and unhealthy</p>
+					<h3>Classification</h3>
+					<p>After training the algorithm with the data set, it was able to classify the people into 2 groups - normal and abnormal.</p>
 				</div>
 				<div class="col-sm-3 info">
-					<h3>Results</h3>
-					<p>The algorithm was able to classify ___% of the inputs correctly after being trained by ___ data points. There was no significant further improvement through further training due to the law of diminising returns</p>
+					<h3>Our Results</h3>
+					<p>The algorithm was able to classify at most over 80% of the test inputs correctly after being trained by 120 data points.
+					</p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<secton class="experimentation">
+		<div class="container">
+			<div class="row text-center">
+				<h2>Brief Explanation of the Algorithm</h1>
+				<p>The perceptron algorithm takes in an initial data point and draws a divider arbitrarily, as that point is the first to be plotted. After the second data point is drawn, it adjusts the divider accordingly. For example, if the first and second points are in opposite groups, then the divider goes between them in some way. The slope of the graph is the weight of the data points and the y-intercept is the bias.</p>
+				<h2>Trials and Explanation</h1>
+
 
 </body>
 </html>
