@@ -1,3 +1,5 @@
 22
-data\SPECT.train
-data\SPECT.test
+data\SPECT_X.train
+data\SPECT_Y.train
+data\SPECT_X.test
+data\SPECT_Y.test
