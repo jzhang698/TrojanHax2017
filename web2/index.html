@@ -21,7 +21,7 @@
 	<section class="jumbotron">
 		<div class="container">
 			<div class="row text-center">
-				<h3>Machine Learning:</h3>
+				<h3>Deep Learning:</h3>
 				<h2>Trojan Health Bot</h2>
 			</div>
 		</div>
@@ -32,9 +32,9 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h1>Multilayer Perceptrons</h1>
-				<p style="font-size:15px">In Machine Learning, the Perceptron is an algorithm for learning binary classifiers. Given large sets of data, it can gradually learn to divide objects into two distinct groups based on certain characteristics. With more data, it can more accurately draw a line between the groups by "plotting" the data and adjusting the linear decision boundaries.</p>
-				<p style="font-size:15px">For Spring 2017 Trojan Hacks, our team is implementing a machine learning algorithm to diagnose abnormal heart complications. This algorithm can be used to help save lives and make better predictions than doctors.</p>
-				<p style="font-size:15px">It is a simple, deep neural network!</p>
+				<p style="font-size:15px">In Machine Learning, the Perceptron is an algorithm for learning binary classifiers. Given large sets of data, it can gradually learn to divide objects into two distinct groups based on certain characteristics. With more data, it can more accurately differentiate between the groups by decision boundaries.</p>
+				<p style="font-size:15px">For Spring 2017 Trojan Hacks, our team is implementing a deep learning algorithm to diagnose abnormal heart complications. This algorithm can be used to help save lives and make better predictions than doctors.</p>
+				<p style="font-size:15px">It utilizes a deep learning network with TensorFlow to make these predictions.</p>
 				<a class="btn btn-transparent-dark" href="https://github.com/jzhang698/TrojanHax2017">Link to GitHub Repo</a>
 			</div>
 			<div class="col-sm-6">
@@ -48,26 +48,25 @@
 		<div class="container">
 			<div class="row text-center">
 				<h1>Background Information</h1>
-				<p style="font-size:15px">We implemented a multilayer perceptron to create a simple, deep, neural network. By training this network with known patient information, we were able to predict (given a patient's data) whether he/she has a heart abnormality. Here is how we did it:</p>
+				<p style="font-size:15px">We implemented a simple deep neural network to create a multilayer perceptron. By training this network with known patient information, we were able to predict (given a patient's data) whether they have a heart abnormality. Here is how we did it:</p>
 			</div>
 			<div style="height: 30px"></div>
 			<div class="row text-center">
 				<div class="col-sm-3 info">
 					<h3>Source of Data</h3>
-					<p>Our training and testing points were obtained from <a href="http://archive.ics.uci.edu/ml/datasets/SPECT+Heart">UCI's Machine learning Database of the Myocardial Perfusion Imaging Testing data of 267 patients.</a></p>
+					<p>Our training and testing points were obtained from <a href="http://archive.ics.uci.edu/ml/datasets/SPECT+Heart">UCI's Database of MPI Testing data.</a> It included 267 distinct patients.</p>
 				</div>
 				<div class="col-sm-3 info">
 					<h3>What Is an MPI?</h3>
-					<p>The method of obtaining the MPI data was through Single Photo Emission Computed Tomography, which is a type of MPI testing.</p>
+					<p>The imaging data was obtained through Single Photo Emission Computed Tomography (SPECT), which is a type of Myocardial Perfusion Imaging.</p>
 				</div>
 				<div class="col-sm-3 info">
 					<h3>Classification</h3>
-					<p>After training the algorithm with the data set, it was able to classify the people into 2 groups - normal and abnormal.</p>
+					<p>After training the algorithm with the data set, it was able to classify the data into 2 groups - normal and abnormal.</p>
 				</div>
 				<div class="col-sm-3 info">
 					<h3>Our Results</h3>
-					<p>The algorithm was able to classify at most over 80% of the test inputs correctly after being trained by 120 data points.
-					</p>
+					<p>The algorithm was able to classify over 80% of the test inputs correctly after being trained on 120 data points.</p>
 				</div>
 			</div>
 		</div>
@@ -82,7 +81,7 @@
 			</div>
 			<div class="col-sm-6">
 				<h1>Brief Explanation of the Algorithm</h1>
-				<p style="font-size: 20px">The perceptron algorithm takes in an initial data point and draws a divider arbitrarily, as that point is the first to be plotted. After the second data point is drawn, it adjusts the divider accordingly. For example, if the first and second points are in opposite groups, then the divider goes between them in some way. The slope of the graph is the weight of the data points and the y-intercept is the bias.
+				<p style="font-size: 20px">The basic (linear)perceptron algorithm takes in an initial data point and draws a divider arbitrarily, as that point is the first to be plotted. After the second data point is drawn, it adjusts the divider accordingly. For example, if the first and second points are in opposite groups, then the divider goes between them in some way. The slope of the graph is the weight of the data points and the y-intercept is the bias. The multilayer perceptron is an extrapolation of this concept to nonlinear algorithms and neural networks.
 				</p>
 			</div>
 		</div>

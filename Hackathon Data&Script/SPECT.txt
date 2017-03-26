@@ -44,9 +44,10 @@ Patrick M. Colletti
 
 
 
-Perceptron - Implemented by Peter
+Multilayer Perceptron - Implemented by Peter
 	- The graph shows that the law of diminishing returns has been reached. This has a very steep and fast learning curve.
-
+	- Multilayer Perceptron = feedforward artificial neural network model
+		
 
 What it does:
 	- Takes in data
@@ -57,23 +58,6 @@ What it does:
 
 Our data:
 	- Each trial has a bit of variation because the results vary depending on the order of training with data points.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
