@@ -10,10 +10,10 @@ accuracy_arr = []
 for repeat in range(0, 5):
 	config = open('../config.txt')
 	input_features = int(config.readline().strip())
-	trn_x = '..\\' + config.readline().strip()
-	trn_y = '..\\' + config.readline().strip()
-	tst_x = '..\\' + config.readline().strip()
-	tst_y = '..\\' + config.readline().strip()
+	trn_x = '../' + config.readline().strip()
+	trn_y = '../' + config.readline().strip()
+	tst_x = '../' + config.readline().strip()
+	tst_y = '../' + config.readline().strip()
 
 
 	X      = np.genfromtxt(trn_x, delimiter=',', dtype=int)
