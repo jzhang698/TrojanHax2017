@@ -3,7 +3,7 @@
 import numpy as np
 import tensorflow as tf
 
-outfile = open('out.txt', 'w')
+outfile = open('../out.txt', 'w')
 accuracy_arr = []
 
 # repeat run the model
