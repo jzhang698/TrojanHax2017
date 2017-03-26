@@ -1,0 +1,82 @@
+Single Photo Emission Computed Tomography is a method of Myocardial Perfusion Imaging Testing
+
+
+Who Gets it?:
+	- People with chest discomfort
+	- They want to see if it's from lack of blood flow to heart or narrowed/blocked arteries
+
+What happens:
+	- Radioactive isotopes (of some non toxic substance like Gallium) injected into bloodstream
+	- The patient's heart rate is elevated through exercise/medicines (hence the term stress test)
+	- These "tracers" go through the patients blood and are able to be read by the "gamma camera"
+	- Electrodes are attached for an EKG (ST elevation, dropped pq waves -> heart block, etc)
+	- images are taken of the heart (in cross sections) by the camera giving off gamma rays. (64 according to mom)
+	- safe because gamma rays aren't like alpha or beta particles and don't stay since no mass (EM Spectrum)
+
+What can it tell?:
+	- blocked/narrowed arteries -> can't directly tell but can see slower blood flow/accumulation of isotope
+	- scar tissue (dead tissue areas with no isotope)
+	- Determine if you can benefit from a stent/test if stent is working (interventional cardiologist)
+	- How well your heart handles stress
+	- It can also be used on the brain and the rest of the body but that's not related to our project
+
+
+Our algorithm was trained on the data of up to 120 patients. These patients had their SPECT data condensed into 22 binary features.
+
+Sources of Error:
+	- A neural network is only as good as the data points that it trains with
+	- SO, if these data points were skewed or had any outliers, then that could lead to a skew in the linear boundary
+	- The training in the beginning has more effect on the boundary than later data points, so if an "imperfect" data point used earlier, more skew
+	- We try to avoid these errors by weighting the initial training so the model tends to converge around several local minima
+	- However, there are still significant skews in the data occasionally.
+
+
+http://keck.usc.edu/radiology/faculty/Patrick-M-Colletti/
+
+Patrick M. Colletti
+	Professor of Radiology and Nuclear Medicine @ Keck
+
+
+
+
+
+
+
+
+
+Perceptron - Implemented by Peter
+	- The graph shows that the law of diminishing returns has been reached. This has a very steep and fast learning curve.
+
+
+What it does:
+	- Takes in data
+	
+
+
+
+
+Our data:
+	- Each trial has a bit of variation because the results vary depending on the order of training with data points.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
