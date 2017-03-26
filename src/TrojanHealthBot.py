@@ -24,10 +24,11 @@ for repeat in range(0, 5):
 	Y_test = np.array([Y_test, -(Y_test-1)]).T
 
 	#  optional remove some data for testing
-	# index = np.random.uniform(0, 105, size=34)
-	# X = np.delete(X, index, axis=0)
-	# Y = np.delete(Y, index, axis=0)
-	# print(len(X), len(Y))
+	while len(X) > 120:
+	    index = np.random.uniform(0, len(X), size=1)
+	    X = np.delete(X, index, axis=0)
+	    Y = np.delete(Y, index, axis=0)
+	print(len(X), len(Y))
 
 	# print(len(X))
 	# print(X)
